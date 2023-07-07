@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/StudentManagementSystem.git/static/css/main.a7e0426a.css",
+    "main.js": "/StudentManagementSystem.git/static/js/main.465f7c4d.js",
+    "index.html": "/StudentManagementSystem.git/index.html",
+    "main.a7e0426a.css.map": "/StudentManagementSystem.git/static/css/main.a7e0426a.css.map",
+    "main.465f7c4d.js.map": "/StudentManagementSystem.git/static/js/main.465f7c4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7e0426a.css",
+    "static/js/main.465f7c4d.js"
+  ]
+}
