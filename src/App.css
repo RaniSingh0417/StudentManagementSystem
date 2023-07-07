@@ -36,3 +36,104 @@
     transform: rotate(360deg);
   }
 }
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 3rem;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 100%;
+  color: azure;
+  /* background: linear-gradient(to top, rgb(255, 8, 68) 0%, rgb(255, 177, 153) 100%); */
+  /* background: radial-gradient(circle at 10% 20%, rgb(255, 156, 156) 0%, rgb(179, 201, 241) 90%); */
+  /* background: linear-gradient(178.6deg, rgb(20, 36, 50) 11.8%, rgb(124, 143, 161) 83.8%); */
+  /* background: linear-gradient(to top, rgb(9, 32, 63) 0%, rgb(83, 120, 149) 100%); */
+  background: radial-gradient(circle at 0.1% 99.8%, rgb(0, 164, 189) 0%, rgb(0, 189, 165) 90%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-attachment: fixed;
+}
+
+.bmi {
+  width: 340px;
+  /* background-color: rgba(0, 0, 0, 0.25); */
+
+  padding: 70px 50px;
+  border-radius: 10%;
+  box-shadow: #2662d9;
+}
+
+.details {
+  background-color: rgba(243, 239, 245, 0.25);
+  padding-top: 10px;
+  margin: 40px;
+  padding-left: 50px;
+  border-radius: 5%;
+  text-align: left;
+}
+
+.btn1 {
+  /* background-color: #ae30e4; */
+  background-color: #477be4;
+  ;
+  border-color: #6f97e8;
+  color: whitesmoke;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 5%;
+  font-size: x-large;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  /* margin-right: 30px; */
+}
+
+.btn {
+  /* background-color: #ae30e4; */
+  background-color: #6f97e8;
+  ;
+  border-color: #6f97e8;
+  color: whitesmoke;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 5%;
+  font-size: large;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  margin-right: 30px;
+  /* text-align: left; */
+  /* z-index: 1; */
+}
+
+.Register {
+  /* padding-top: 40px; */
+  padding-top: 50px;
+  background-color: rgba(243, 239, 245, 0.25);
+  /* padding-top: 10px; */
+  margin: 40px;
+  /* padding-left: 50px; */
+  border-radius: 5%;
+  text-align: center;
+}
+
+input {
+  font-size: 17px;
+  border-color: white;
+}
+
+label {
+  font-size: 17px;
+}
